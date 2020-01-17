@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+.cal {
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.cal th,
+.cal td {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.cal th:first-of-type,
+.cal td:first-of-type {
+    color: red;
+}
+.cal th:last-of-type,
+.cal td:last-of-type {
+    color: blue;
+}
+
+.cal-head {
+    text-align: center;
+    color: black;
+}
+
+#cal {
+    height: 700px;
+    margin-top: 20px;
+}
+
+.cal-title {
+    padding: 30px;
+}
+
+.yyyy, .mm {
+    font-size: 1.5em;
+    color: #1f2e42;
+}
+
+.cal-btn {
+    width: 30px;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

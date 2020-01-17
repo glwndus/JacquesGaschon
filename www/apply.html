@@ -1,0 +1,239 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="조아림" />
+        <meta name="description" content="Jacques Gaschon은 누구나 한번쯤 상상해봤을 그림이 그대로 펼쳐져 있는 내 기억속에 영원히 잊을 수 없는 이름입니다." />
+        <meta name="keywords" content="펜션, 자크가숑, Jacques Gaschon, 노천스파, 바베큐" />
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <meta property="og:title" content="Jacques_Gaschon" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://kimpitang01.dothome.co.kr/Jacques Gaschon" />
+        <meta property="og:image" content="http://kimpitang01.dothome.co.kr/Jacques_Gaschon/images/Panorama3" />
+        <title>Jacques Gaschon > 예약하기 > 예약안내</title>
+        <link href="css/common.css" rel="stylesheet" />
+        <link href="css/calendar.css" rel="stylesheet" />
+        <script
+          src="https://code.jquery.com/jquery-3.4.1.min.js"
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+          crossorigin="anonymous">
+        </script>
+        <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <div class="cen1">
+                <h1>
+                    <a href="index.html">
+                        <img src="images/logo.png">
+                    </a>
+                </h1>
+                <nav id="pcnav">
+                    <ul>
+                        <li class="main">
+                            <a class="main_a" href="about.html">펜션소개</a>
+                            <ul class="sub">
+                                <li><a href="about.html">펜션소개</a></li>
+                                <li><a href="pension.html">펜션전경</a></li>
+                            </ul>
+                        </li>
+                        <li class="main">
+                            <a class="main_a" href="lena.html">객실소개</a>
+                            <ul class="sub">
+                                <li><a href="lena.html">레나</a></li>
+                                <li><a href="chloe.html">끌로에</a></li>
+                                <li><a href="camille.html">까미유</a></li>
+                                <li><a href="alice.html">알리스</a></li>
+                                <li><a href="ambre.html">앙브트</a></li>
+                            </ul>
+                        </li>
+                        <li class="main">
+                            <a class="main_a" href="reservation.html">예약하기</a>
+                            <ul class="sub">
+                                <li><a href="#">예약하기</a></li>
+                                <li><a href="reservation.html">예약안내</a></li>
+                                <li><a href="check.html">예약확인</a></li>
+                            </ul>
+                        </li>
+                        <li class="main">
+                            <a class="main_a" href="notice.html">공지사항</a>
+                            <ul class="sub">
+                                <li><a href="notice.html">공지사항</a></li>
+                                <li><a href="community.html">문의하기</a></li>
+                            </ul>
+                        </li>
+                        <li class="main">
+                            <a class="main_a" href="tour.html">주변관광지</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav id="mnav">
+                    <ul>
+                        <li class="mmain">
+                            <a href="about.html">펜션소개</a>
+                            <ul class="msub">
+                                <li><a href="about.html">펜션소개</a></li>
+                                <li><a href="pension.html">펜션전경</a></li>
+                            </ul>
+                        </li>
+                        <li class="mmain">
+                            <a href="lena.html">객실소개</a>
+                            <ul class="msub">
+                                <li><a href="lena.html">레나</a></li>
+                                <li><a href="chloe.html">끌로에</a></li>
+                                <li><a href="camille.html">까미유</a></li>
+                                <li><a href="alice.html">알리스</a></li>
+                                <li><a href="ambre.html">앙브트</a></li>
+                            </ul>
+                        </li>
+                        <li class="mmain">
+                            <a href="reservation.html">예약하기</a>
+                            <ul class="msub">
+                                <li><a href="#">예약하기</a></li>
+                                <li><a href="reservation.html">예약안내</a></li>
+                                <li><a href="check.html">예약확인</a></li>
+                            </ul>
+                        </li>
+                        <li class="mmain">
+                            <a href="notice.html">공지사항</a>
+                            <ul class="msub">
+                                <li><a href="notice.html">공지사항</a></li>
+                                <li><a href="community.html">문의하기</a></li>
+                            </ul>
+                        </li>
+                        <li class="mmain">
+                            <a href="tour.html">주변관광지</a>
+                            <ul class="msub">
+                                <li><a href="tour.html">주변관광지</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <button id="ham" type="button">
+                    <div id="hambox">
+                        <span class="hamba" id="hamba1"></span>
+                        <span class="hamba" id="hamba2"></span>
+                        <span class="hamba" id="hamba3"></span>
+                    </div>
+                </button>
+            </div>
+        </header>
+        
+        <div id="quick">
+            <a href="#">예약하기</a>
+            <a href="#">문의하기</a>
+        </div>
+        
+        <section class="cen1">
+            <h2>예약안내</h2>
+            <div id="tabbtnbox">
+                <button type="button" class="tabbtn tabactive">예약현황</button>
+                <button type="button" class="tabbtn">예약하기</button>
+            </div>
+            <div id="tabcont_box">
+                <div class="tabcont">
+                    <table id="cal" class="cal"></table>
+                </div>
+                <div class="tabcont cont2">
+                    <div>
+                        <div>
+                            <h4>환불규정</h4>
+                            <ol>
+                                <li>올바른 예약문화의 정착을 위하여 불가피한 조치이오니 양해를 바랍니다.</li>
+                                <li>객실과 날짜는 예약 전 신중히 생각하시고 결정해주시기 바랍니다. 이용일 당일 취소시 환불이 불가능합니다.</li>
+                                <li>환불은 입금자명으로 되며 입금 시 송금수수료는 제외한 후 입금됩니다.</li>
+                                <li>객실요금 기준으로 적용되며, 예약제로 운영되고 있기 때문에 이용일에 임박할수록 환불이 곤란함을 양지하여 주시기 바랍니다.</li>
+                                <li>10일전 100%환불   /   7-9일전 90%환불   /   5-6일전 70%환불   /   3-4일전 50%환불   /   1-2일전 20%환불   /   당일 환불불가</li>
+                            </ol>
+                        </div>
+                        <table class="cal"></table>
+                        <div>
+                            <div id="total">
+                                <span>총 결제금액</span>
+                                <span>80,000원</span>
+                                <button type="button">예약하기</button>
+                            </div>
+                            <div class="roominfo">
+                                <input type="checkbox" />
+                                <img src="images/room3_4.jpg" alt="레나" />
+                                <div>
+                                    <span>예약완료</span>
+                                    <span>레나</span>
+                                    <span>2/4</span>
+                                    <span>80,000</span>
+                                </div>
+                                <div>
+                                    <div>
+                                        <span>기간</span>
+                                        <select>
+                                            <option selected="selected" value="1">1</option>
+                                            <option selected="selected" value="2">2</option>
+                                            <option selected="selected" value="3">3</option>
+                                            <option selected="selected" value="4">4</option>
+                                        </select>
+                                    </div> 
+                                    <div>
+                                        <span>성인</span>
+                                        <select>
+                                            <option selected="selected" value="1">1</option>
+                                            <option selected="selected" value="2">2</option>
+                                            <option selected="selected" value="3">3</option>
+                                            <option selected="selected" value="4">4</option>
+                                        </select>
+                                    </div> 
+                                    <div>
+                                        <span>아동</span>
+                                        <select>
+                                            <option selected="selected" value="1">1</option>
+                                            <option selected="selected" value="2">2</option>
+                                            <option selected="selected" value="3">3</option>
+                                            <option selected="selected" value="4">4</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <span>유아</span>
+                                        <select>
+                                            <option selected="selected" value="1">1</option>
+                                            <option selected="selected" value="2">2</option>
+                                            <option selected="selected" value="3">3</option>
+                                            <option selected="selected" value="4">4</option>
+                                        </select>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="cen1">
+                <p>
+                    회사 명 : Jacques Gaschon
+                </p>
+                <p>
+                    대표자 : 한지호
+                </p>
+                <p>                
+                    소재지 : 대전광역시 중구 중앙로121번길 20 방산빌딩
+                </p>
+                <p>
+                    전화번호 : 042-123-1234
+                </p>
+                <p>
+                    이메일 : jacques@gaschon.com
+                </p>
+                <p>
+                    사업자등록번호 : 123-12-12345
+                </p>
+                <p>
+                    계좌번호 : 국민 404001-04-134535 (한지호)
+                </p>
+            </div>
+        </footer>
+        <script src="script/script.js"></script>
+        <script src="script/calendar.js"></script>
+    </body>
+</html>

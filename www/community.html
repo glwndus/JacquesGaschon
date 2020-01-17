@@ -1,0 +1,229 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="조아림" />
+        <meta name="description" content="Jacques Gaschon은 누구나 한번쯤 상상해봤을 그림이 그대로 펼쳐져 있는 내 기억속에 영원히 잊을 수 없는 이름입니다." />
+        <meta name="keywords" content="펜션, 자크가숑, Jacques Gaschon, 노천스파, 바베큐" />
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <meta property="og:title" content="Jacques_Gaschon" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://kimpitang01.dothome.co.kr/Jacques Gaschon" />
+        <meta property="og:image" content="http://kimpitang01.dothome.co.kr/Jacques_Gaschon/images/Panorama3" />
+        <title>Jacques Gaschon > 공지사항 > 문의하기</title>
+        <link href="css/common.css" rel="stylesheet" />
+        <script
+          src="https://code.jquery.com/jquery-3.4.1.min.js"
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+          crossorigin="anonymous">
+        </script>
+        <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <div class="cen1">
+                <h1>
+                    <a href="index.html">
+                        <img src="images/logo.png">
+                    </a>
+                </h1>
+                <nav id="pcnav">
+                    <ul>
+                        <li class="main">
+                            <a class="main_a" href="about.html">펜션소개</a>
+                            <ul class="sub">
+                                <li><a href="about.html">펜션소개</a></li>
+                                <li><a href="pension.html">펜션전경</a></li>
+                            </ul>
+                        </li>
+                        <li class="main">
+                            <a class="main_a" href="lena.html">객실소개</a>
+                            <ul class="sub">
+                                <li><a href="lena.html">레나</a></li>
+                                <li><a href="chloe.html">끌로에</a></li>
+                                <li><a href="camille.html">까미유</a></li>
+                                <li><a href="alice.html">알리스</a></li>
+                                <li><a href="ambre.html">앙브트</a></li>
+                            </ul>
+                        </li>
+                        <li class="main">
+                            <a class="main_a" href="reservation.html">예약하기</a>
+                            <ul class="sub">
+                                <li><a href="apply.html">예약하기</a></li>
+                                <li><a href="reservation.html">예약안내</a></li>
+                                <li><a href="check.html">예약확인</a></li>
+                            </ul>
+                        </li>
+                        <li class="main">
+                            <a class="main_a" href="notice.html">공지사항</a>
+                            <ul class="sub">
+                                <li><a href="notice.html">공지사항</a></li>
+                                <li><a href="community.html">문의하기</a></li>
+                            </ul>
+                        </li>
+                        <li class="main">
+                            <a class="main_a" href="tour.html">주변관광지</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav id="mnav">
+                    <ul>
+                        <li class="mmain">
+                            <a href="about.html">펜션소개</a>
+                            <ul class="msub">
+                                <li><a href="about.html">펜션소개</a></li>
+                                <li><a href="pension.html">펜션전경</a></li>
+                            </ul>
+                        </li>
+                        <li class="mmain">
+                            <a href="lena.html">객실소개</a>
+                            <ul class="msub">
+                                <li><a href="lena.html">레나</a></li>
+                                <li><a href="chloe.html">끌로에</a></li>
+                                <li><a href="camille.html">까미유</a></li>
+                                <li><a href="alice.html">알리스</a></li>
+                                <li><a href="ambre.html">앙브트</a></li>
+                            </ul>
+                        </li>
+                        <li class="mmain">
+                            <a href="reservation.html">예약하기</a>
+                            <ul class="msub">
+                                <li><a href="apply.html">예약하기</a></li>
+                                <li><a href="reservation.html">예약안내</a></li>
+                                <li><a href="check.html">예약확인</a></li>
+                            </ul>
+                        </li>
+                        <li class="mmain">
+                            <a href="notice.html">공지사항</a>
+                            <ul class="msub">
+                                <li><a href="notice.html">공지사항</a></li>
+                                <li><a href="community.html">문의하기</a></li>
+                            </ul>
+                        </li>
+                        <li class="mmain">
+                            <a href="tour.html">주변관광지</a>
+                            <ul class="msub">
+                                <li><a href="tour.html">주변관광지</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <button id="ham" type="button">
+                    <div id="hambox">
+                        <span class="hamba" id="hamba1"></span>
+                        <span class="hamba" id="hamba2"></span>
+                        <span class="hamba" id="hamba3"></span>
+                    </div>
+                </button>
+            </div>
+        </header>
+        
+        <div id="quick">
+            <a href="apply.html">예약하기</a>
+            <a href="community.html">문의하기</a>
+        </div>
+        
+        <section class="cen1">
+            <h2>공지사항</h2>
+            <div id="listboard">
+                    <div id="searchbox">
+                        <form name="search" action="search.php" method="get">
+                            <select id="stype" name="stype">
+                                <option value="title">제목</option>
+                                <option value="cont">내용</option>
+                                <option value="writer">작성자</option>
+                            </select>
+                            <input id="stext" name="stext" type="text" placeholder="검색어 입력" />
+                            <button id="sbtn" style="width: 70px;" type="button">검색</button>
+                        </form>
+                    </div>
+                    <div id="listbox">
+                        <table class="pcboard">
+                            <tr class="boardtitle">
+                                <th>번호</th>
+                                <th>제목</th>
+                                <th>글쓴이</th>
+                                <th>날짜</th>
+                                <th>조회수</th>
+                            </tr>
+                            <tr class="boardcont">
+                                <td>2</td>
+                                <td><a href="#">크리스마스 파티 신청문의</a></td>
+                                <td>비공개</td>
+                                <td>2019-12-19</td>
+                                <td>2</td>
+                            </tr>
+                            <tr class="boardcont">
+                                <td>1</td>
+                                <td><a href="#">이벤트참가</a></td>
+                                <td>홍길동</td>
+                                <td>2019-11-16</td>
+                                <td>25</td>
+                            </tr>
+                        </table>
+                        <div class="mboardbox">
+                            <table class="mboard">
+                                <tr class="mboardtop">
+                                    <th>2</th>
+                                    <th colspan="2"><a href="#">크리스마스 파티 신청문의</a></th>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>비공개</td>
+                                    <td>2019-11-29</td>
+                                </tr>
+                            </table>
+                            <table class="mboard">
+                                <tr class="mboardtop">
+                                    <th>1</th>
+                                    <th colspan="2"><a href="#">이벤트참가</a></th>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>홍길동</td>
+                                    <td>2019-11-16</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <button id="pbtn" type="button">글 작성하기</button>
+                    <div id="pagibox">
+                        <ul>
+                            <li><a href="#" class="pbtn bactive">1</a></li>
+                            <li><a href="#" class="pbtn">2</a></li>
+                            <li><a href="#" class="pbtn">3</a></li>
+                            <li><a href="#" class="pbtn">4</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+        
+        <footer>
+            <div class="cen1">
+                <p>
+                    회사 명 : Jacques Gaschon
+                </p>
+                <p>
+                    대표자 : 한지호
+                </p>
+                <p>                
+                    소재지 : 대전광역시 중구 중앙로121번길 20 방산빌딩
+                </p>
+                <p>
+                    전화번호 : 042-123-1234
+                </p>
+                <p>
+                    이메일 : jacques@gaschon.com
+                </p>
+                <p>
+                    사업자등록번호 : 123-12-12345
+                </p>
+                <p>
+                    계좌번호 : 국민 404001-04-134535 (한지호)
+                </p>
+            </div>
+        </footer>
+        <script src="script/script.js"></script>
+    </body>
+</html>
